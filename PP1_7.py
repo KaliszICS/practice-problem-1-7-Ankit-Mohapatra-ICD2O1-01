@@ -1,13 +1,19 @@
 
 
-q1():
-  #Write code here
+def q1():
+  print(True)
 
-q2():
-  #Write code here
+def q2():
+  x = int(input("Input an integer: "))
+  print(x > 5)
+  
 
 q3():
-  #Write code here
+  xAgain = input("Input the letter a: ")
+if xAgain == "a" or "A" :
+  print(True)
+else : 
+  print(False)
 
 q4():
   #Write code here
