@@ -9,10 +9,10 @@ def q2():
   
 
 q3():
-  xAgain = input("Input the letter a: ")
-if xAgain == "a" or "A" :
+ xAgain = input("Input the letter a: ")
+ if xAgain == "a" or "A" :
   print(True)
-else : 
+ else : 
   print(False)
 
 q4():
@@ -28,8 +28,8 @@ q5():
 #Do edit the code below
 #Comment the lines below when running your tests
 
-q1()
-q2()
-q3()
-q4()
-q5()
+#q1()
+#q2()
+#q3()
+#q4()
+#q5()
