@@ -16,10 +16,14 @@ else :
   print(False)
 
 q4():
-  #Write code here
+ xx = input( "Input a word earlier in the dictionary than google: ")
+ print(xx != "google")
 
 q5():
-  #Write code here
+ var_1 = int(input("Input an integer: "))
+ var_2 = int(input("Input another integer: "))
+ var_3=(var_1*var_2) >40
+ print(f"Your numbers multiplied together are greater than 40, {var_3}")
 
 #Do edit the code below
 #Comment the lines below when running your tests
