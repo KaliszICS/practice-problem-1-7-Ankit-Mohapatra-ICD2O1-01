@@ -8,18 +8,18 @@ def q2():
   print(x > 5)
   
 
-q3():
+def q3():
  xAgain = input("Input the letter a: ")
  if xAgain == "a" or "A" :
   print(True)
  else : 
   print(False)
 
-q4():
+def q4():
  xx = input( "Input a word earlier in the dictionary than google: ")
  print(xx != "google")
 
-q5():
+def q5():
  var_1 = int(input("Input an integer: "))
  var_2 = int(input("Input another integer: "))
  var_3=(var_1*var_2) >40
