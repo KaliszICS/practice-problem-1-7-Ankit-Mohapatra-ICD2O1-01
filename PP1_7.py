@@ -9,12 +9,13 @@ def q2():
   
 
 def q3():
- xAgain = input("Input the letter a:")
+ xAgain = input("Input the letter a: ")
  print(xAgain == "a")
 
 def q4():
- xx = input( "Input a word earlier in the dictionary than google: ")
- print(xx != "google")
+ xx = input("Input a word earlier in the dictionary than google: ")
+ xxx= xx < "google"
+ print(xxx)
 
 def q5():
  var_1 = int(input("Input an integer: "))
