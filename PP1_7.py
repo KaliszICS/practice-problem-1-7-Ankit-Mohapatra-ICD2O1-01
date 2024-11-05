@@ -11,7 +11,7 @@ def q2():
 def q3():
  xAgain = input("Input the letter a: ")
  z = xAgain == "a"
- print(z)
+ print(f"Input the letter a: {z}")
 
 def q4():
  xx = input("Input a word earlier in the dictionary than google: ")
