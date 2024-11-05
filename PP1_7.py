@@ -9,11 +9,8 @@ def q2():
   
 
 def q3():
- xAgain = input("Input the letter a: ")
- if xAgain == "a" or "A" :
-  print(True)
- else : 
-  print(False)
+ xAgain = input("Input the letter a:")
+ print(xAgain == "a")
 
 def q4():
  xx = input( "Input a word earlier in the dictionary than google: ")
